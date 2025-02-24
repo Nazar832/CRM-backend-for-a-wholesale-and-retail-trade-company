@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend of CRM system for a wholesale and retail trade company",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "seed": "node db/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nazar832/CRM-backend-for-a-wholesale-and-retail-trade-company.git"
+  },
+  "author": "Nazar Hrubyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nazar832/CRM-backend-for-a-wholesale-and-retail-trade-company/issues"
+  },
+  "homepage": "https://github.com/Nazar832/CRM-backend-for-a-wholesale-and-retail-trade-company#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9",
+    "pdfkit": "^0.16.0",
+    "typescript": "^5.7.3"
+  }
+}
